@@ -1,0 +1,24 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ashchelkunov/site01.git",
+  "author": "Ashchelkunov <nevermind0996@yandex.ru>",
+  "license": "MIT",
+
+
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "less": "^3.10.3",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.0",
+    "bxslider": "^4.2.14",
+    "jquery": "^3.4.1",
+    "postcss-modules": "^1.4.1"
+  }
+}
