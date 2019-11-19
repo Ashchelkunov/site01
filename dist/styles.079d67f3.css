@@ -1,2 +1,37 @@
+body a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: normal;
+}
+.header .menu {
+  background-color: #2d2d2d;
+  display: flex;
+  align-items: center;
+}
+.header .menu .logo {
+  margin: 23px 40px 27px 27px;
+}
+.header .menu .nav {
+  flex-grow: 2;
+  display: flex;
+  justify-content: space-between;
+}
+.header .menu .search {
+  height: 40px;
+  width: 200px;
+  flex-grow: 2;
+  margin: 0 50px 0 100px;
+}
+.header .downMenu {
+  display: flex;
+}
+.header .downMenu .breakingNews {
+  background-color: #e75757;
+}
+.header .downMenu .scroll {
+  display: flex;
+}
+
 
 /*# sourceMappingURL=/styles.079d67f3.css.map */
